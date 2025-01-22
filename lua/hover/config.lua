@@ -20,7 +20,7 @@ local default_config = {
 --- @field preview_window? boolean
 
 --- @type Hover.Config
-local config
+local config = default_config
 
 --- @param user_config Hover.UserConfig
 function M.set(user_config)
